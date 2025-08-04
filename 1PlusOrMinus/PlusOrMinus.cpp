@@ -12,8 +12,8 @@ int main(){
 	int a,b,c,cantidad;
 	cin>>cantidad;
 	while(cantidad--){
-		cin>>a>>b; 
-		c=a+b;
+		cin>>a>>b>>c; 
+		//c=a+b;
 		if((a+b)==c){
 			cout<<"+"<<endl;
 		}else{
