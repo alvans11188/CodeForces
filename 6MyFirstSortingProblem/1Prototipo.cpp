@@ -7,12 +7,8 @@ int main(){
 	int a,b;
 	while(repeticiones--){
 		cin>>a>>b;
-		if(b<a){
-			int temp=a;
-			a=b;
-			b=temp;
-		}
-		cout<<a<<" "<<b;
+		
+		cout<<min(a,b)<<" "<<max(a,b)<<endl;
 	}
 	
 	
