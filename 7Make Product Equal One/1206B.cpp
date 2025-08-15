@@ -1,8 +1,9 @@
+//https://codeforces.com/problemset/problem/1206/B
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
 	int entradas;cin>>entradas;
-	int contador=0;
+	long long contador=0;
 	vector<int> arreglo;
 	while(entradas--){
 		int dato;cin>>dato;
