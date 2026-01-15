@@ -1,3 +1,3 @@
 Agregando comentario etc
 actualizado 4/01
-agregar ejercicio 228a
+agregar ejercicio 228a, 996A
