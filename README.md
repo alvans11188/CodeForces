@@ -1,3 +1,3 @@
 Agregando comentario etc
 actualizado 4/01
-agregar ejercicio 2180B,2180A,486A
+agregar ejercicio 2180B,2180A
