@@ -3,3 +3,4 @@ actualizado 4/01
 agregar ejercicio 2180B,2180A, 1335A y otros
 enlace de codeforces caido por lo que no habra actualizaciones en el repositorio
 falta agregar y repasar 254A, repasar ejercicio del 04/03/2026 , 06
+repasar el 1374B
