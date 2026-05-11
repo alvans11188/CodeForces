@@ -5,5 +5,4 @@ enlace de codeforces caido por lo que no habra actualizaciones en el repositorio
 falta agregar y repasar 254A, repasar ejercicio del 04/03/2026 , 06
 repasar el 1374B
 
-16/03/20226 oh toy waska csm
 
