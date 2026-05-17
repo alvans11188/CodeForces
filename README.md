@@ -6,3 +6,4 @@ falta agregar y repasar 254A, repasar ejercicio del 04/03/2026 , 06
 repasar el 1374B
 agregar mas ejercicios 
 .
+a
