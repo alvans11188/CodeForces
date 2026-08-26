@@ -16,7 +16,7 @@ int main(){
 		}
 		
 		menor=bus.size();
-		cout<<mayor<<endl;
+		//cout<<mayor<<endl;
 		if(menor>mayor){
 			mayor=menor;
 		}

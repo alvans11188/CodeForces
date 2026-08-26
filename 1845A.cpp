@@ -32,12 +32,13 @@ int main()
 			}
 			
 			cout<<endl;
-		}else if(k>=3&&n!=0){
+		}else if(k>=3&&n%2!=0){
+			cout<<"YES"<<endl;
 			int b=0;
 			b=(n-3)/2 + 1;
 			cout<<b<<endl;
 			cout<<"3 ";
-			forn(i,b){
+			forn(i,b-1){
 				cout<<"2 ";
 			}
 			cout<<endl;

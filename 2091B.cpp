@@ -11,8 +11,9 @@ int main()
 			cin>>b;
 			m.push_back(b);
 		}
-		sort(m.begin(),m.end());
-		reverse(m.begin(),m.end());
+		//sort(m.begin(),m.end());
+		sort(m.rbegin(), m.rend());
+		//reverse(m.begin(),m.end());
 		int ta=m.size();
 		int encima=0;
 		for(int i=0;i<ta;i++){
