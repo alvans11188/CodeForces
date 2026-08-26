@@ -2,38 +2,35 @@
 using namespace std;
 int main()
 {
-	int n;cin>>n;
-	int a[n][n];
-	for(int i=0;i<n;i++){
-		for(int j=0;j<n;j++){
-			cin>>a[i][j];
+	int a;cin>>a;
+	int b[a][3];
+	for(int i=0;i<a;i++){
+		for(int j=0;j<3;j++){
+			cin>>b[i][j];
 		}
 	}
-	/*
-	for(int i=0;i<n;i++){
-		for(int j=0;j<n;j++){
-			cout<<a[i][j] << " ";
+	
+	for(int i=0;i<a;i++){
+		for(int j=0;j<3;j++){
+			cout<<b[i][j]<<" ";
 		}
 		cout<<endl;
 	}
-	*/
-	int r = 0;
-	int x=0;
-	for(int j=0;j<n;j++){
-		for(int i=0;i<n;i++){
-			r+=a[i][j];
+	int x=0,t=0;
+	for(int j=0;j<3;j++){
+		for(int i=0;i<a;i++){
+			x+=b[i][j];
 		}
-		if(r!=0){
-			
+		if(x!=0){
+			t=0;
 			break;
 		}else{
-			r=0;
-			x=1;
+			t=1;
+			x=0;
 		}
 	}
-	if(x==1) cout<<"YES"<<endl;
+	if(t==1) cout<<"YES"<<endl;
 	else cout<<"NO"<<endl;
-
 	
 	return 0;
 }
