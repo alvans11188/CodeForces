@@ -9,24 +9,25 @@ int main()
 			cin>>a[i][j];
 		}
 	}
-	
+	/*
 	for(int i=0;i<n;i++){
 		for(int j=0;j<n;j++){
 			cout<<a[i][j] << " ";
 		}
 		cout<<endl;
 	}
-	int r[n][n]={0};
+	*/
+	int r = 0;
 	int x=0;
 	for(int j=0;j<n;j++){
 		for(int i=0;i<n;i++){
-			r[n][n]+=a[i][j];
+			r+=a[i][j];
 		}
-		if(r[n][n]!=0){
+		if(r!=0){
 			
 			break;
 		}else{
-			r[n][n]=0;
+			r=0;
 			x=1;
 		}
 	}
